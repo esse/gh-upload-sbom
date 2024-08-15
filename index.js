@@ -51,7 +51,6 @@ try {
     bomPayload = {
       projectName: projectName,
       projectVersion: projectVersion,
-      projectTags: projectTags.map(tag => ({name: tag})),
       autoCreate: autoCreate,
       bom: encodedBomContents
     }
